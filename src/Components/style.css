@@ -1,0 +1,176 @@
+@charset "UTF-8";
+h1, h2, h3 {
+  color: #fff; }
+
+h1 strong, h2 strong, h3 strong {
+  color: #04d361; }
+
+strong {
+  color: #04d361; }
+
+body {
+  background-color: #0b0a0d !important;
+  color: #fff !important;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  background-image: url(../Assets/img/Forest-04.png); }
+
+body img.logo {
+  height: 40px;
+  width: auto; }
+
+body .bg-dark {
+  background-color: #302e37 !important; }
+
+body .full-h {
+  height: 100vh; }
+
+body .h-inherit {
+  height: inherit; }
+
+body .btn-primary {
+  color: #fff;
+  background-color: #7159c1;
+  padding: 12px 60px;
+  display: flex;
+  cursor: pointer;
+  border-color: #7159c1; }
+
+body .btn-primary:hover {
+  background-color: #04d361;
+  border-color: #04d361; }
+
+body .btn-primary:active, body .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #04d361 !important;
+  border-color: #04d361 !important;
+  filter: brightness(1.1); }
+
+body nav.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; }
+
+body #card input {
+  max-width: 500px;
+  background-color: #302e37;
+  border: solid 1px transparent;
+  padding: 10px;
+  color: #fff !important;
+  border-radius: 5px;
+  margin: 20px 0 30px; }
+
+body #card input:active, body #card input:focus {
+  outline: none;
+  border-color: #04d361; }
+
+body .fadeup {
+  animation: fadeUp 200ms 1;
+  animation-fill-mode: forwards; }
+
+body .fadedown {
+  animation: moveDown 200ms 1;
+  animation-fill-mode: forwards; }
+
+body .pokecard {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #0b0a0d;
+  border: solid 1px #7159c1;
+  border-radius: 5px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  box-shadow: 1px 1px 35px -4px #0b0a0d; }
+
+body .pokecard h3 {
+  text-transform: capitalize; }
+
+body .pokecard .split {
+  flex: 1 1 50%; }
+
+body .pokecard .split:last-child {
+  padding-left: 15px; }
+
+body .pokecard .split figure {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #302e37; }
+
+body .pokecard .split figure img {
+  display: flex;
+  margin: 0 auto;
+  height: 170px;
+  width: auto; }
+
+body .pokecard .split ul {
+  padding: 0; }
+
+body .pokecard .split ul li {
+  list-style: none; }
+
+body .pokecard .split ul li:before {
+  content: "•";
+  color: #04d361;
+  margin-right: 1em; }
+
+body .historico {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 40px;
+  padding: 0; }
+
+body .historico li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background: #302e37;
+  border-radius: 5px;
+  border: solid 1px #7159c1;
+  box-shadow: 1px 1px 35px -4px #0b0a0d;
+  transition: all 200ms ease; }
+
+body .historico li:hover {
+  background: #201f25; }
+
+body .historico li:active {
+  background: #201f25;
+  box-shadow: 2px 2px 20px -4px #0b0a0d;
+  transform: translate(5px, -5px); }
+
+body .historico li figure {
+  margin: 0;
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer; }
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1; }
+  50% {
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    transform: translateY(50px);
+    opacity: 0; } }
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }

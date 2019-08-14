@@ -1,0 +1,211 @@
+$primary-bg: #0b0a0d;
+$lightdark: #302e37;
+$lightdark-h: #201f25;
+
+$primary: #7159c1;
+$secondary: #04d361;
+
+$borderinput: 5px;
+
+h1, h2, h3 {
+    color: #fff;
+    strong {
+        color: $secondary;
+    }
+}
+
+strong {
+    color: $secondary;
+}
+
+body {
+    background-color: $primary-bg !important;
+    color: #fff !important;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+    background-image: url(../Assets/img/Forest-04.png);
+
+    img.logo {
+        height: 40px;
+        width: auto;
+    }
+    
+    // BootStrap Customize
+    .bg-dark {
+        background-color: $lightdark !important;
+    }
+
+    .full-h {
+        height: 100vh;
+    }
+
+    .h-inherit {
+        height: inherit;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: $primary;
+        padding: 12px 60px;
+        display: flex;
+        cursor: pointer;
+        border-color: $primary;
+
+        &:hover {
+            background-color: $secondary;
+            border-color: $secondary;
+        }
+
+        &:active, &:focus {
+            outline: none;
+            box-shadow: none;
+            background-color: $secondary !important;
+            border-color: $secondary !important;
+            filter: brightness(1.1);
+        }
+    }
+
+    // Header
+    nav.navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    // Card
+    #card {
+
+        input {
+            max-width: 500px;
+            background-color: $lightdark;
+            border: solid 1px transparent;
+            padding: 10px;
+            color: #fff !important;
+            border-radius: $borderinput;
+            margin: 20px 0 30px;
+
+            &:active, &:focus {
+                outline: none;
+                border-color: $secondary;
+            }
+        }
+    }
+
+    .fadeup {
+        animation: fadeUp 200ms 1;
+        animation-fill-mode: forwards;
+    }
+
+    .fadedown {
+        animation: moveDown 200ms 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .pokecard {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: $primary-bg;
+        border: solid 1px $primary;
+        border-radius: $borderinput;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        box-shadow: 1px 1px 35px -4px $primary-bg;
+
+        h3 {
+            text-transform: capitalize;
+        }
+
+        .split {
+            flex: 1 1 50%;
+            &:last-child {
+                padding-left: 15px;
+            }
+
+            figure {
+                margin: 0;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $lightdark;
+                    
+                img {
+                    display:flex;
+                    margin: 0 auto;
+                    height: 170px;
+                    width: auto;
+                }
+            }
+
+            ul {
+                padding: 0;
+                
+                li {
+                    list-style: none;
+    
+                    &:before {
+                        content: "•";
+                        color: $secondary;
+                        margin-right: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    .historico {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-gap: 10px;
+        grid-row-gap: 10px;
+        margin-top: 40px;
+        padding: 0;
+
+        li {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background: $lightdark;
+            border-radius: $borderinput;
+            border: solid 1px $primary;
+            box-shadow: 1px 1px 35px -4px $primary-bg;
+            transition: all 200ms ease;
+
+            &:hover {
+                background: $lightdark-h;
+            }
+
+            &:active {
+                background: $lightdark-h;
+                box-shadow: 2px 2px 20px -4px #0b0a0d;
+                transform: translate(5px, -5px);
+            }
+
+            figure {
+                margin: 0;
+                flex: 1 1 100%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@keyframes moveDown {
+    0% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(50px); opacity: 0; }
+}
+
+@keyframes fadeUp {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
