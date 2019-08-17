@@ -11,7 +11,7 @@ O Build não foi programado para o root.
 O projeto foi montado usando Yarn.
 
 ### Hosted Version
-Link para o livecode: (Aqui)[https://leobezr.com.br/pokeapi/]
+Link para o livecode: [Aqui](https://leobezr.com.br/pokeapi/)
 
 ### Contato
 • (contato.leobezr.com.br)[https://leobezr.com.br/contact]
