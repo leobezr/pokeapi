@@ -25,6 +25,16 @@ body {
     background-position: center bottom;
     min-height: 100vh;
     background-image: url(../Assets/img/Forest-04.png);
+    overflow: hidden;
+
+    &.loaded {
+        overflow: auto;
+        padding-bottom: 5em;
+
+        nav.navbar {
+            margin-bottom: 5em;
+        }
+    }
 
     img.logo {
         height: 40px;
@@ -68,7 +78,7 @@ body {
 
     // Header
     nav.navbar {
-        position: fixed;
+        position: relative;
         left: 0;
         top: 0;
         width: 100%;
@@ -90,6 +100,13 @@ body {
                 outline: none;
                 border-color: $secondary;
             }
+        }
+    }
+
+    .container {
+
+        a {
+            color: $secondary;
         }
     }
 

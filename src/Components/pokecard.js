@@ -107,8 +107,10 @@ class PokeCard extends React.Component {
                 <Row className={`h-inherit ${!this.state.accepts ? 'd-block' : 'fadedown'} ${this.state.proceed ? 'd-none' : false}`}>
                     <Col xl={12} className="h-inherit">
                         <div className="wrap h-inherit d-flex justify-content-center align-items-center flex-column" id="card">
-                            <h1 className="text-center">Desafio <strong>RedFox</strong></h1>
-                            <p className="d-block mb-5">Esse desafio foi proposto pela empresa <strong>RedFox</strong> apenas como code test.</p>
+                            <h1 className="text-center d-block mb-4">Pokemon <strong>API</strong></h1>
+                            <p className="d-block mb-2">Esse app tem como objetivo mostrar um pouco dos meus conhecimentos em <strong>ReactJS</strong></p>
+                            <p className="d-block mb-2">Foi um desafio proposto por uma empresa para ver como eu me sairia.</p>
+                            <p className="d-block mb-5">Caso tenha interesse, dê uma olhada no meu GitHub, <strong><a href="#" target="_blank" rel="nofollow">Clique aqui</a></strong>.</p>
                             <p><button className="btn btn-primary" onClick={this.gotit}>Entendi</button></p>
                         </div>
                     </Col>

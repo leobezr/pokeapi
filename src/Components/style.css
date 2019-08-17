@@ -14,7 +14,15 @@ body {
   background-size: cover;
   background-position: center bottom;
   min-height: 100vh;
-  background-image: url(../Assets/img/Forest-04.png); }
+  background-image: url(../Assets/img/Forest-04.png);
+  overflow: hidden; }
+
+body.loaded {
+  overflow: auto;
+  padding-bottom: 5em; }
+
+body.loaded nav.navbar {
+  margin-bottom: 5em; }
 
 body img.logo {
   height: 40px;
@@ -49,7 +57,7 @@ body .btn-primary:active, body .btn-primary:focus {
   filter: brightness(1.1); }
 
 body nav.navbar {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%; }
@@ -66,6 +74,9 @@ body #card input {
 body #card input:active, body #card input:focus {
   outline: none;
   border-color: #04d361; }
+
+body .container a {
+  color: #04d361; }
 
 body .fadeup {
   animation: fadeUp 200ms 1;
