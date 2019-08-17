@@ -13,8 +13,11 @@ O projeto foi montado usando Yarn.
 ### Hosted Version
 Link para o livecode: [Aqui](https://leobezr.com.br/pokeapi/)
 
-### Contato
-• [contato.leobezr.com.br](https://leobezr.com.br/contact)
-• [Portfolio](https://leobezr.com.br/)
-• 55 21 96540-7423
-• [Linkedin](https://www.linkedin.com/in/leobezr/)
+### Links para Contato
+LeoBezr | WhatsApp | Outros
+------------- | -------------   |   -------------
+[contato.leobezr.com.br](https://leobezr.com.br/contact)  
+[Portfolio](https://leobezr.com.br/) 
+| 55 21 96540-7423
+| [Linkedin](https://www.linkedin.com/in/leobezr/)
+[Behance](https://www.behance.net/lebezr)
