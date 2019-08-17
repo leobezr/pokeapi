@@ -1,7 +1,7 @@
 # PokeAPI
 
 Esse app foi construido usando a [PokeApi](https://github.com/PokeAPI/pokedex-promise-v2).
-Tem como único objetivo mostrar um pouco dos meus conhecimentos em ReactJs, caso não seja suficiente ficaria feliz em fazer um teste de sua escolha.
+Tem como único objetivo mostrar um pouco dos meus conhecimentos em ReactJs, caso não seja suficiente ficarei feliz em fazer um teste de sua escolha.
 
 ### Build
 ```
