@@ -9,10 +9,10 @@ class Header extends React.Component {
     render() {
         return (
             <Navbar color="dark" dark expand="md">
-                <NavbarBrand><img src={logo} className="logo" /></NavbarBrand>
+                <NavbarBrand><a href="https://leobezr.com.br/" target="_blank" rel="nofollow"><img src={logo} className="logo" /></a></NavbarBrand>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="http://leobezr.com.br" target="_blank" rel="nofollow">Conheça meus Trabalhos</NavLink>
+                        <NavLink href="http://leobezr.com.br" target="_blank" rel="nofollow">Portfolio</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="https://github.com/leobezr" target="_blank" rel="nofollow">GitHub</NavLink>

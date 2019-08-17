@@ -108,7 +108,7 @@ class PokeCard extends React.Component {
                     <Col xl={12} className="h-inherit">
                         <div className="wrap h-inherit d-flex justify-content-center align-items-center flex-column" id="card">
                         <h1 className="text-center mb-5">Pokemon <strong>App</strong></h1>
-                            <p className="d-block mb-2">Esse app foi construindo usando <strong>PokeApi</strong>. Na página seguinte digite o nome do seu pokemon predileto.</p>
+                            <p className="d-block mb-2">Esse app foi construindo usando <a href="http://pokeapi.co" target="_blank" rel="nofollow"><strong>PokeApi</strong></a>. Na página seguinte digite o nome do seu pokemon predileto.</p>
                             <p className="d-block mb-2">Esse projeto tem como único objetivo mostrar um pouco dos meus conhecimentos em <strong>ReactJs</strong>.</p>
                             <p className="d-block mb-5">Caso queira ver o código no GitHub, <strong><a href="https://github.com/leobezr/pokeapi" target="_blank" rel="nofollow">clique aqui</a></strong>.</p>
                             <p><button className="btn btn-primary" onClick={this.gotit}>Entendi</button></p>
